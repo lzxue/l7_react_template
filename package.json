@@ -1,8 +1,10 @@
 {
-  "name": "my-app",
+  "name": "l7_react_template",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@antv/l7": "^1.3.4",
+    "d3-fetch": "^1.1.2",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-scripts": "3.1.1"

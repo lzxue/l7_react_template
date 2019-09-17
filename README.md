@@ -1,4 +1,17 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### L7 React template
+L7 依赖高德地图，目前高德地图只支持动态方式引入，因此在react使用L7需要动态加载 高德jsapi, jsapi加载完成后再进行L7 scene初始化。
+
+使用之前切记将本示例的高德地图key，设置成自己的。
+
+``` ./util/APILoader.js文件里配置 
+const MAPKEY=""
+
+```
+
+
+
+
+
 
 ## Available Scripts
 
